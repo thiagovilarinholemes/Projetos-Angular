@@ -1,0 +1,64 @@
+<!-- Sem o botão enviar e o bootstrap e a barra de progresso-->
+<!-- <input type="file" (change)="uploadFile($event)"> -->
+
+<!-- <div>{{ uploadPercent | async }}</div> -->
+<!-- <a [href]="downloadURL | async">{{ downloadURL | async }}</a> -->
+
+<br>
+<hr>
+<br>
+
+<!-- Sem o botão enviar e a barra de progresso-->
+<!-- <div class="container">
+    <div class="card">
+      <div class="card-header">
+        Firebase Cloud Storage & Angular 10
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Selecionar arquivo:</h5>
+        <input type="file" (change)="uploadFile($event)" accept=".png,.jpg" />
+      </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [style.width]="(uploadPercent | async) + '%'" [attr.aria-valuenow]="(uploadPercent | async)" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+</div> -->
+
+<br>
+<hr>
+<br>
+
+<!-- Com botão enviar e a barra de progresso -->
+<div class="container">
+    <div class="card">
+      <div class="card-header">
+        Firebase Cloud Storage & Angular 10
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Selecionar arquivo:</h5>
+        <div class="input-group">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" (change)="uploadPegar($event)" accept=".png,.jpg">
+                <label class="custom-file-label" for="inputGroupFile04">{{ textInput }}</label>
+
+                <input type="file" (change)="uploadPegar($event)" accept=".png,.jpg" />
+            </div>
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" (click)="uploadImagem()">Enviar</button>
+            </div>
+          </div>
+      </div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [style.width]="(uploadPercent | async) + '%'" [attr.aria-valuenow]="(uploadPercent | async)" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  
+    <br>
+
+    
+  <a [href]="downloadURL | async">{{ downloadURL | async }}</a>
+
+</div>
+
+
