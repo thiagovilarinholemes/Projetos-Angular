@@ -1,5 +1,5 @@
 # Projetos Angular
-Neste repositório contém projetos realizados em Angular.
+Neste repositório contém projetos realizados em <b>Angular</b>.
 
 [![NPM Version][npm-image]][npm-url]
 
