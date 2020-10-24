@@ -1,4 +1,4 @@
-# Projetos Java
+# Projetos Angular
 Neste repositório contém projetos realizados em Angular.
 
 [![NPM Version][npm-image]][npm-url]
