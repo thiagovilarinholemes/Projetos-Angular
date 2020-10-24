@@ -1,11 +1,11 @@
 # Projetos Java
-Neste repositório contém projetos realizados em <b>Java</b> com <b>Spring Framework</b>.
+Neste repositório contém projetos realizados em Angular.
 
 [![NPM Version][npm-image]][npm-url]
 
 
 
-[npm-image]: https://github.com/thiagovilarinholemes/Projetos-Java/blob/master/java.jpg
+[npm-image]: https://github.com/thiagovilarinholemes/Projetos-Angular/blob/master/angular-logo-png.png
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
